@@ -1,11 +1,11 @@
 public enum DenNedeli {
-    DUISHOMBY ("--техникалык сабак болот окууйм.--"),
-    SHEISHEMBI("--практикалык сабак болот окууйм--."),
-    SHARSHEMBI("--англис тил сабагы окууйм.--"),
-    BEISHEMBI("--практика окууйм.--"),
-    JUMA("--жума марек окууйм.--"),
-    ISHEMBI("--демалыш калочуларга окуу.--"),
-    JEKSHEMBI("------эс алам.!------");
+    DUISHOMBY ("- DUISHOMBY-техникалык сабак болот окууйм.--"),
+    SHEISHEMBI("-SHEISHEMBI-практикалык сабак болот окууйм--."),
+    SHARSHEMBI("-SHARSHEMBI-англис тил сабагы окууйм.--"),
+    BEISHEMBI("-BEISHEMBI-практика окууйм.--"),
+    JUMA("-JUMA-жума марек окууйм.--"),
+    ISHEMBI("-ISHEMBI-демалыш калочуларга окуу.--"),
+    JEKSHEMBI("----JEKSHEMBI--эс алам.!------");
     private final String name;
     DenNedeli(String name) {
         this.name = name;
